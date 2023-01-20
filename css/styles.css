@@ -1,3 +1,5 @@
+/* Overall Site Styles: Header, Buttons, Footer */
+/* General Site Styles */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 :root {
   --accentbright: #2196f3;
@@ -9,21 +11,18 @@
   --accentbackground: #f5f4fa;
   --accentbox: #eeeeee;
 }
-/* Background Boxes*/
-.topbarback {
-  background-color: var(--mainbright);
+
+a:link:active {
+  cursor: pointer;
 }
-.promobody {
-  background-color: var(--footercolor);
-}
-.ourteam {
-  background-color: var(--accentbackground);
-}
-.imgbox {
-  background-color: var(--accentbox);
+a:link {
+  text-decoration: none;
 }
 
-/* Buttons */
+body {
+  font-family: roboto;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -31,42 +30,12 @@ button:hover {
 button {
   border-radius: 4px;
 }
-.promobutton {
-  font-weight: 700;
-  background-color: var(--accentbright);
-  color: var(--mainbright);
-  font-size: 16px;
-  line-height: 1.88;
+
+ul {
+  list-style: none;
 }
 
-.filter {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
-  background-color: var(--accentbackground);
-  border: 2px;
-  color: var(--accentbright);
-}
-.filter:hover {
-  background-color: var(--accentbright);
-  color: var(--mainbright);
-}
-
-/* Text Styles*/
-
-body {
-  font-family: roboto;
-  color: var(maindark);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  background-color: var(--background);
-}
-
-a:link:active {
-  cursor: pointer;
-}
-
+/* Header */
 .logo {
   color: var(--accentbright);
   font-family: raleway;
@@ -75,84 +44,159 @@ a:link:active {
   line-height: 1.174;
 }
 
-.lead {
-  list-style: none;
+.nav-back {
+  background-color: var(--mainbright);
 }
-.topbar {
+
+.nav-link {
   color: var(--maindark);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.172;
 }
-.topbar:hover {
+.nav-link:hover {
   color: var(--accentbright);
 }
 
-.rightbar {
+.nav-contact {
   color: var(--mainmid);
   font-size: 14px;
   font-weight: 500;
 }
 
-.rightbar:hover {
+.nav-contact:hover {
   color: var(--accentbright);
 }
 
-a:link {
-  text-decoration: none;
+/* Footer */
+
+.foot {
+  font-style: normal;
 }
-.lead-next {
-  color: var(--mainmid);
-  font-size: 14px;
-  font-weight: 500;
-  list-style: none;
+.foot-address {
+  color: var(--mainbright);
 }
 
-.promo {
+.foot-contact {
+  color: var(--mainbright);
+  opacity: 0.6;
+}
+
+/* Studio Page: Hero, Our Features, Our Team */
+
+/* Hero */
+
+.hero-back {
+  background-color: var(--footercolor);
+}
+
+.hero {
   font-weight: 900;
   color: var(--mainbright);
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: roboto;
 }
 
-.minihead {
+.promobutton {
+  font-weight: 700;
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Our Features */
+
+.feature-subtitle {
   font-weight: 700;
   line-height: 1.172;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--maindark);
 }
 
-.midhead {
+.feature-desc {
+  color: var(--mainmid);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* What we Do */
+
+.whatwedo {
+  color: var(--maindark);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
+  letter-spacing: 0.03em;
 }
-.nametag {
+
+/* Our Team */
+
+.ourteamback {
+  background-color: var(--accentbackground);
+}
+
+.ourteamhead {
+  color: var(--maindark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+}
+
+.team-nametag {
+  color: var(--maindark);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.172;
+  letter-spacing: 0.03em;
 }
-.jobtitle {
+
+.team-work {
   font-size: 16px;
   color: var(--mainmid);
+  letter-spacing: 0.03em;
 }
-.bottom {
-  font-style: normal;
+
+/* Portfolio Page */
+
+.gallery-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  background-color: var(--accentbackground);
+  border: 2px;
+  color: var(--maindark);
+  font-family: roboto;
+  letter-spacing: 0.03em;
 }
-.where {
+.gallery-button:hover {
+  background-color: var(--accentbright);
   color: var(--mainbright);
 }
 
-.digitalcontact {
-  color: var(--mainbright);
-  opacity: 0.6;
+.art-back {
+  background-color: var(--accentbox);
 }
-.artname {
+
+.art-name {
+  color: var(--maindark);
   font-style: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.artdesc {
+.art-desc {
   font-size: 16px;
   line-height: 1.88;
   color: var(--mainmid);
+  letter-spacing: 0.03em;
 }
