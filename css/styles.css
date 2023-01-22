@@ -27,17 +27,12 @@ html {
   padding-bottom: 94px;
 }
 .container {
+  display: block;
   max-width: 1200px;
   margin: auto;
+  height: auto;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
+
 img {
   display: block;
   max-width: 100%;
@@ -74,16 +69,14 @@ ul {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.174;
-}
-
-.logo {
-  display: flex;
-  padding: auto;
+  display: inline-flex;
 }
 
 .nav-back {
-  display: flex;
   background-color: var(--mainbright);
+  display: flex;
+  align-content: baseline;
+  align-content: center;
 }
 
 .nav-link {
@@ -96,9 +89,6 @@ ul {
 .nav-link:hover {
   color: var(--accentbright);
 }
-.nav-link-row {
-  display: inline-flex;
-}
 
 .nav-contact {
   color: var(--mainmid);
@@ -108,10 +98,6 @@ ul {
 
 .nav-contact:hover {
   color: var(--accentbright);
-}
-
-.nav-contact-row {
-  display: flex;
 }
 
 /* Footer */
@@ -246,4 +232,12 @@ ul {
   line-height: 1.88;
   color: var(--mainmid);
   letter-spacing: 0.03em;
+}
+
+.art-grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
