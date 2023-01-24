@@ -69,14 +69,22 @@ ul {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.174;
-  display: inline-flex;
+  padding-right: 97px;
 }
 
-.nav-back {
+.nav-back .container {
   background-color: var(--mainbright);
   display: flex;
-  align-content: baseline;
-  align-content: center;
+  align-items: baseline;
+  height: 100%;
+}
+
+.nav-link-row {
+  display: flex;
+}
+
+.nav-link-row li {
+  padding-right: 53px;
 }
 
 .nav-link {
@@ -84,7 +92,6 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.172;
-  padding-right: 53px;
 }
 .nav-link:hover {
   color: var(--accentbright);
