@@ -13,30 +13,32 @@
   --headerborder: #ececec;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  box-sizing: border-box;
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container {
-  display: block;
-  max-width: 1200px;
-  margin: auto;
-  height: auto;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  display: block;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container header-container {
+  display: flex;
+  align-items: center;
 }
 
 a:link:active {
@@ -72,7 +74,7 @@ ul {
   padding-right: 97px;
 }
 
-.nav-back .container {
+.nav-back {
   background-color: var(--mainbright);
   display: flex;
   align-items: baseline;
