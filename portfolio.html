@@ -3,183 +3,167 @@
   <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 </html>
 <body>
-  <header class="nav-back">
-    <div class="container">
-      <a class="logo" href="index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li>
-            <a class="nav-link" href="index.html" title="Studio">Studio</a>
-          </li>
-          <li>
-            <a class="nav-link" href="portfolio.html" title="Portfolio"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="nav-link" href="#" title="Contacts">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <ul>
+  <header class="topbarback">
+    <a class="logo" href="index.html">WebStudio</a>
+    <nav>
+      <ul class="lead">
         <li>
-          <a class="nav-contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="topbar" href="index.html" title="Studio">Studio</a>
+        </li>
+        <li>
+          <a class="topbar" href="portfolio.html" title="Portfolio"
+            >Portfolio</a
           >
         </li>
         <li>
-          <a class="nav-contact" href="tel:+12127724150">+1 212-772-4150</a>
+          <a class="topbar" href="#" title="Contacts">Contacts</a>
         </li>
       </ul>
-    </div>
+    </nav>
+    <ul class="lead">
+      <li>
+        <a class="rightbar" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+      </li>
+      <li>
+        <a class="rightbar" href="tel:+12127724150">+1 212-772-4150</a>
+      </li>
+    </ul>
   </header>
   <main>
-    <div class="container">
-      <section class="section">
-        <ul>
-          <li>
-            <button class="gallery-button" type="button">All</button>
-          </li>
-          <li>
-            <button class="gallery-button" type="button">Web-Sites</button>
-          </li>
-          <li>
-            <button class="gallery-button" type="button">Apps</button>
-          </li>
-          <li>
-            <button class="gallery-button" type="button">Design</button>
-          </li>
-          <li>
-            <button class="gallery-button" type="button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="art-grid">
-          <li class="art-back">
-            <img
-              src="assets/images/c1technoduck.jpg"
-              alt="laptop with profile pics"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Technoduck</h3>
-            <p class="art-desc">Web-site</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/c2poster.jpg"
-              alt="Art of two basketball players"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Poster New Orleans vs Golden Star</h3>
-            <p class="art-desc">Design</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/c3seafood.jpg"
-              alt="Fish Logo of a Seafood Restaurant"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Seafood Restaurant</h3>
-            <p class="art-desc">Apps</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/d1project.jpg"
-              alt="Headphones"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Project Prime</h3>
-            <p class="art-desc">Marketing</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/d2project.jpg"
-              alt="Boxes with customized Logos"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Project Boxes</h3>
-            <p class="art-desc">Apps</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/d3inspiration.jpg"
-              alt="Computer Monitor featuring website"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Inspiration has no Borders</h3>
-            <p class="art-desc">Web-site</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/e1limited.jpg"
-              alt="Magazine Entry"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Limited Edition</h3>
-            <p class="art-desc">Design</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/e2project.jpg"
-              alt="Label Tag"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Project LAB</h3>
-            <p class="art-desc">Marketing</p>
-          </li>
-          <li class="art-back">
-            <img
-              src="assets/images/e3growing.jpg"
-              alt="Laptop with hands typing"
-              height="294"
-              width="370"
-            />
-            <h3 class="art-name">Growing Business</h3>
-            <p class="art-desc">Apps</p>
-          </li>
-        </ul>
-      </section>
-    </div>
+    <section>
+      <ul class="lead">
+        <li>
+          <button class="filter" type="button">All</button>
+        </li>
+        <li>
+          <button class="filter" type="button">Web-Sites</button>
+        </li>
+        <li>
+          <button class="filter" type="button">Apps</button>
+        </li>
+        <li>
+          <button class="filter" type="button">Design</button>
+        </li>
+        <li>
+          <button class="filter" type="button">Marketing</button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <ul class="lead">
+        <li class="imgbox">
+          <img
+            src="assets/images/c1technoduck.jpg"
+            alt="laptop with profile pics"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Technoduck</h3>
+          <p class="artdesc">Web-site</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/c2poster.jpg"
+            alt="Art of two basketball players"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Poster New Orleans vs Golden Star</h3>
+          <p class="artdesc">Design</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/c3seafood.jpg"
+            alt="Fish Logo of a Seafood Restaurant"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Seafood Restaurant</h3>
+          <p class="artdesc">Apps</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/d1project.jpg"
+            alt="Headphones"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Project Prime</h3>
+          <p class="artdesc">Marketing</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/d2project.jpg"
+            alt="Boxes with customized Logos"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Project Boxes</h3>
+          <p class="artdesc">Apps</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/d3inspiration.jpg"
+            alt="Computer Monitor featuring website"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Inspiration has no Borders</h3>
+          <p class="artdesc">Web-site</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/e1limited.jpg"
+            alt="Magazine Entry"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Limited Edition</h3>
+          <p class="artdesc">Design</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/e2project.jpg"
+            alt="Label Tag"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Project LAB</h3>
+          <p class="artdesc">Marketing</p>
+        </li>
+        <li class="imgbox">
+          <img
+            src="assets/images/e3growing.jpg"
+            alt="Laptop with hands typing"
+            height="294"
+            width="370"
+          />
+          <h3 class="artname">Growing Business</h3>
+          <p class="artdesc">Apps</p>
+        </li>
+      </ul>
+    </section>
   </main>
-  <footer class="hero-back">
-    <div class="container">
+  <footer class="promobody">
+    <address class="bottom">
       <a class="logo" href="index.html">WebStudio</a>
-      <address class="foot">
-        <ul>
-          <li>
-            <a
-              class="foot-address"
-              href="https://goo.gl/maps/9Rd5TcPRFXRM2J766"
-              target="blank"
-            >
-              695 Park Ave, NY 10065, USA
-            </a>
-          </li>
-          <li>
-            <a class="foot-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a class="foot-contact" href="tel:+1217724150"> +1 212-772-4150</a>
-          </li>
-        </ul>
-      </address>
-    </div>
+      <a
+        class="where"
+        href="https://goo.gl/maps/9Rd5TcPRFXRM2J766"
+        target="blank"
+      >
+        695 Park Ave, NY 10065, USA
+      </a>
+      <a class="digitalcontact" href="mailto:info@devstudio.com"
+        >info@devstudio.com
+      </a>
+      <a class="digitalcontact" href="tel:+1217724150"> +1 212-772-4150</a>
+    </address>
   </footer>
 </body>
