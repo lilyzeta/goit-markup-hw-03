@@ -299,7 +299,17 @@ img {
   margin-right: 30px;
 }
 /* Portfolio Page */
-
+.gallery-button-container {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.gallery-button-item {
+}
+.gallery-button-item:not(:last-child) {
+  margin-right: 9px;
+}
 .gallery-button {
   font-size: 16px;
   font-weight: 500;
@@ -309,14 +319,34 @@ img {
   color: var(--maindark);
   font-family: roboto;
   letter-spacing: 0.03em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 26px;
+  padding-right: 26px;
 }
 .gallery-button:hover {
   background-color: var(--accentbright);
   color: var(--mainbright);
 }
 
+.art-row1,
+.art-row2,
+.art-row3 {
+  display: flex;
+}
+.art-row1-item:not(last-child),
+.art-row2-item:not(last-child),
+.art-row3-item:not(last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.art-row3 {
+  padding-bottom: 94px;
+}
+
 .art-back {
-  background-color: var(--accentbox);
+  background-color: var(--mainbright);
+  border: 1px solid var(--accentbox);
 }
 
 .art-name {
@@ -325,6 +355,9 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
 }
 
 .art-desc {
@@ -332,4 +365,6 @@ img {
   line-height: 1.88;
   color: var(--mainmid);
   letter-spacing: 0.03em;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }

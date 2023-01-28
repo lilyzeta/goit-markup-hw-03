@@ -40,25 +40,26 @@
   <main>
     <div class="container">
       <section>
-        <ul>
-          <li>
+        <ul  class="gallery-button-container">
+          <li class="gallery-button-item">
             <button class="gallery-button" type="button">All</button>
           </li>
-          <li>
+          <li class="gallery-button-item">
             <button class="gallery-button" type="button">Web-Sites</button>
           </li>
-          <li>
+          <li class="gallery-button-item">
             <button class="gallery-button" type="button">Apps</button>
           </li>
-          <li>
+          <li class="gallery-button-item">
             <button class="gallery-button" type="button">Design</button>
           </li>
-          <li>
+          <li class="gallery-button-item">
             <button class="gallery-button" type="button">Marketing</button>
           </li>
         </ul>
         <ul>
-          <li class="art-back">
+          <section class="art-row1">
+          <li class="art-back art-row1-item">
             <img
               src="assets/images/c1technoduck.jpg"
               alt="laptop with profile pics"
@@ -68,7 +69,7 @@
             <h3 class="art-name">Technoduck</h3>
             <p class="art-desc">Web-site</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row1-item">
             <img
               src="assets/images/c2poster.jpg"
               alt="Art of two basketball players"
@@ -78,7 +79,7 @@
             <h3 class="art-name">Poster New Orleans vs Golden Star</h3>
             <p class="art-desc">Design</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row1-item">
             <img
               src="assets/images/c3seafood.jpg"
               alt="Fish Logo of a Seafood Restaurant"
@@ -88,7 +89,9 @@
             <h3 class="art-name">Seafood Restaurant</h3>
             <p class="art-desc">Apps</p>
           </li>
-          <li class="art-back">
+          </section>
+          <section class="art-row2">
+          <li class="art-back art-row2-item">
             <img
               src="assets/images/d1project.jpg"
               alt="Headphones"
@@ -98,7 +101,7 @@
             <h3 class="art-name">Project Prime</h3>
             <p class="art-desc">Marketing</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row2-item">
             <img
               src="assets/images/d2project.jpg"
               alt="Boxes with customized Logos"
@@ -108,7 +111,7 @@
             <h3 class="art-name">Project Boxes</h3>
             <p class="art-desc">Apps</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row2-item">
             <img
               src="assets/images/d3inspiration.jpg"
               alt="Computer Monitor featuring website"
@@ -118,7 +121,9 @@
             <h3 class="art-name">Inspiration has no Borders</h3>
             <p class="art-desc">Web-site</p>
           </li>
-          <li class="art-back">
+          </section>
+          <section class="art-row3">
+          <li class="art-back art-row3-item">
             <img
               src="assets/images/e1limited.jpg"
               alt="Magazine Entry"
@@ -128,7 +133,7 @@
             <h3 class="art-name">Limited Edition</h3>
             <p class="art-desc">Design</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row3-item">
             <img
               src="assets/images/e2project.jpg"
               alt="Label Tag"
@@ -138,7 +143,7 @@
             <h3 class="art-name">Project LAB</h3>
             <p class="art-desc">Marketing</p>
           </li>
-          <li class="art-back">
+          <li class="art-back art-row3-item">
             <img
               src="assets/images/e3growing.jpg"
               alt="Laptop with hands typing"
@@ -148,34 +153,35 @@
             <h3 class="art-name">Growing Business</h3>
             <p class="art-desc">Apps</p>
           </li>
+          </section>  
         </ul>
       </section>
     </div>
-  </main>
-  <footer class="hero-section">
-    <div class="container">
-      <a class="logo" href="index.html">WebStudio</a>
-      <address class="foot">
-        <ul>
-          <li>
-            <a
-              class="foot-address"
-              href="https://goo.gl/maps/9Rd5TcPRFXRM2J766"
-              target="blank"
-            >
-              695 Park Ave, NY 10065, USA
-            </a>
-          </li>
-          <li>
-            <a class="foot-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a class="foot-contact" href="tel:+1217724150"> +1 212-772-4150</a>
-          </li>
-        </ul>
-      </address>
-    </div>
-  </footer>
+  </main>    <footer>
+      <div class="container footersection">
+        <a class="logo footerlogo" href="index.html">WebStudio</a>
+        <address class="foot">
+          <ul class="footertext-container">
+            <li class="footertext-item">
+              <a
+                class="foot-address"
+                href="https://goo.gl/maps/9Rd5TcPRFXRM2J766"
+                target="blank"
+              >
+                695 Park Ave, New York, NY 10065,<br/> United States
+            </li>
+            <li class="footertext-item">
+              <a class="foot-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="footertext-item">
+              <a class="foot-contact foot-phone" href="tel:+1217724150">
+                +1 212-772-4150</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
 </body>
