@@ -183,6 +183,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--maindark);
+  margin-bottom: 10px;
 }
 
 .feature-desc {
@@ -191,6 +192,20 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.features-section {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-item {
+  width: 270px;
+}
+
+.features-item:not(last-child) {
+  margin-right: 30px;
 }
 
 /* What we Do */
