@@ -222,7 +222,7 @@ img {
   width: 270px;
 }
 
-.features-item:not(last-child) {
+.features-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -295,7 +295,7 @@ img {
   padding-bottom: 94px;
 }
 
-.ourteam-items:not(last-child) {
+.ourteam-items:not(:last-child) {
   margin-right: 30px;
 }
 /* Portfolio Page */
@@ -334,9 +334,9 @@ img {
 .art-row3 {
   display: flex;
 }
-.art-row1-item:not(last-child),
-.art-row2-item:not(last-child),
-.art-row3-item:not(last-child) {
+.art-row1-item:not(:last-child),
+.art-row2-item:not(:last-child),
+.art-row3-item:not(:last-child) {
   margin-right: 30px;
   margin-bottom: 30px;
 }
