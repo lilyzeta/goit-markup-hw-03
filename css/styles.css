@@ -122,9 +122,23 @@ img {
 }
 
 /* Footer */
-
+.footersection {
+  background-color: var(--footercolor);
+}
+.footerlogo {
+  padding-top: 60px;
+  padding-bottom: 9px;
+}
 .foot {
   font-style: normal;
+  padding-bottom: 27px;
+}
+.footertext-container {
+  display: block;
+}
+
+.footertext-item {
+  padding-bottom: 2px;
 }
 .foot-address {
   color: var(--mainbright);
@@ -133,6 +147,10 @@ img {
 .foot-contact {
   color: var(--mainbright);
   opacity: 0.6;
+}
+.foot-phone {
+  display: block;
+  padding-bottom: 60px;
 }
 
 /* Studio Page: Hero, Our Features, Our Team */
@@ -216,8 +234,23 @@ img {
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
+.whatwedo-container {
+  display: flex;
+  padding-bottom: 94px;
+}
+.whatwedo-items {
+  justify-content: center;
+}
+
+.whatwedo-items:not(:last-child) {
+  margin-right: 30px;
+}
 /* Our Team */
 
 .ourteamback {
@@ -230,6 +263,9 @@ img {
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .team-nametag {
@@ -238,14 +274,30 @@ img {
   font-size: 16px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: var(--mainbright);
 }
 
 .team-work {
   font-size: 16px;
   color: var(--mainmid);
   letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: var(--mainbright);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.ourteam-container {
+  display: flex;
+  padding-bottom: 94px;
 }
 
+.ourteam-items:not(last-child) {
+  margin-right: 30px;
+}
 /* Portfolio Page */
 
 .gallery-button {
