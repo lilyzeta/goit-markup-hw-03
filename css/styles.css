@@ -214,12 +214,12 @@ img {
 
 .features-section {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-item {
   width: 270px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-item:not(:last-child) {
@@ -242,10 +242,10 @@ img {
 
 .whatwedo-container {
   display: flex;
-  padding-bottom: 94px;
 }
 .whatwedo-items {
   justify-content: center;
+  padding-bottom: 94px;
 }
 
 .whatwedo-items:not(:last-child) {
@@ -305,8 +305,6 @@ img {
   padding-bottom: 50px;
   justify-content: center;
 }
-.gallery-button-item {
-}
 .gallery-button-item:not(:last-child) {
   margin-right: 9px;
 }
@@ -333,12 +331,12 @@ img {
 .art-row2,
 .art-row3 {
   display: flex;
+  margin-bottom: 30px;
 }
 .art-row1-item:not(:last-child),
 .art-row2-item:not(:last-child),
 .art-row3-item:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 30px;
 }
 .art-row3 {
   padding-bottom: 94px;
