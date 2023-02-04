@@ -60,10 +60,9 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--bordercolor);
 }
 
-.logo {
+.headerlogo {
   color: var(--accentbright);
   font-family: raleway;
   font-size: 26px;
@@ -77,6 +76,7 @@ img {
 
 .nav-back {
   background-color: var(--mainbright);
+  border-bottom: 1px solid var(--bordercolor);
 }
 
 .nav-list {
@@ -124,9 +124,15 @@ img {
 /* Footer */
 .footersection {
   background-color: var(--footercolor);
+  padding: 60px 0;
 }
 .footerlogo {
-  padding-top: 60px;
+  color: var(--accentbright);
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.174;
+  display: block;
   padding-bottom: 9px;
 }
 .foot {
@@ -137,8 +143,8 @@ img {
   display: block;
 }
 
-.footertext-item {
-  padding-bottom: 2px;
+.footertext-item:not(:last-child)) {
+  margin-bottom: 2px;
 }
 .foot-address {
   color: var(--mainbright);
@@ -150,7 +156,6 @@ img {
 }
 .foot-phone {
   display: block;
-  padding-bottom: 60px;
 }
 
 /* Studio Page: Hero, Our Features, Our Team */
@@ -194,7 +199,9 @@ img {
 }
 
 /* Our Features */
-
+.features-section {
+  padding: 94px 0;
+}
 .feature-subtitle {
   font-weight: 700;
   line-height: 1.172;
@@ -212,14 +219,12 @@ img {
   letter-spacing: 0.03em;
 }
 
-.features-section {
+.features-list {
   display: flex;
 }
 
 .features-item {
   width: 270px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-item:not(:last-child) {
@@ -227,7 +232,9 @@ img {
 }
 
 /* What we Do */
-
+.whatwedo-section {
+  padding-bottom: 94px;
+}
 .whatwedo {
   color: var(--maindark);
   font-weight: 700;
@@ -236,7 +243,6 @@ img {
   letter-spacing: 0.03em;
   display: block;
   text-align: center;
-  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -245,7 +251,6 @@ img {
 }
 .whatwedo-items {
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .whatwedo-items:not(:last-child) {
@@ -255,6 +260,7 @@ img {
 
 .ourteamback {
   background-color: var(--accentbackground);
+  padding: 94x 0;
 }
 
 .ourteamhead {
@@ -263,8 +269,7 @@ img {
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -275,9 +280,8 @@ img {
   line-height: 1.172;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  background-color: var(--mainbright);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-work {
@@ -294,15 +298,20 @@ img {
   display: flex;
   padding-bottom: 94px;
 }
-
+.ourteam-items {
+  background-color: var(--mainbright);
+}
 .ourteam-items:not(:last-child) {
   margin-right: 30px;
 }
 /* Portfolio Page */
+
+.project-section {
+  padding: 94px 0;
+}
 .gallery-button-container {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .gallery-button-item:not(:last-child) {
@@ -327,26 +336,31 @@ img {
   color: var(--mainbright);
 }
 
-.art-grid{
-  display:flex;
+.my-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * 30px);
+  margin-left: calc(-1 * 30px);
 }
 .art-back {
   background-color: var(--mainbright);
   border: 1px solid var(--accentbox);
-  margin:left:30px;
-  margin:right:30px;
-  padding:94px;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
+.art-text {
+  padding: 20px 24px;
+  border: bottom solid 1px;
+  color: var(--bordercolor);
+}
 .art-name {
   color: var(--maindark);
-  font-style: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-left: 24px;
+  margin-bottom: 4px;
 }
 
 .art-desc {
@@ -354,6 +368,4 @@ img {
   line-height: 1.88;
   color: var(--mainmid);
   letter-spacing: 0.03em;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }

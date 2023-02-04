@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <meta charset="utf-8" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
@@ -9,7 +13,7 @@
 <body>
   <header class="nav-back">
     <div class="container header-container">
-      <a class="logo" href="index.html">WebStudio</a>
+      <a class="logo headerlogo" href="index.html">WebStudio</a>
       <nav>
         <ul class="nav-list">
           <li class="nav-item">
@@ -37,9 +41,10 @@
       </ul>
     </div>
   </header>
-  <main>
+  <main>      
+    <section class="project-section">
     <div class="container">
-      <section>
+
         <ul  class="gallery-button-container">
           <li class="gallery-button-item">
             <button class="gallery-button" type="button">All</button>
@@ -57,8 +62,8 @@
             <button class="gallery-button" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="art-grid">
-          <li class="art-back art-row1-item">
+        <ul class="my-project-list">
+          <li class="art-back">
             <img
               src="assets/images/c1technoduck.jpg"
               alt="laptop with profile pics"
@@ -68,7 +73,7 @@
             <h3 class="art-name">Technoduck</h3>
             <p class="art-desc">Web-site</p>
           </li>
-          <li class="art-back art-row1-item">
+          <li class="art-back">
             <img
               src="assets/images/c2poster.jpg"
               alt="Art of two basketball players"
@@ -78,81 +83,95 @@
             <h3 class="art-name">Poster New Orleans vs Golden Star</h3>
             <p class="art-desc">Design</p>
           </li>
-          <li class="art-back art-row1-item">
+          <li class="art-back">
             <img
               src="assets/images/c3seafood.jpg"
               alt="Fish Logo of a Seafood Restaurant"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Seafood Restaurant</h3>
             <p class="art-desc">Apps</p>
+          </div>
           </li>
 
-          <li class="art-back art-row2-item">
+          <li class="art-back">
             <img
               src="assets/images/d1project.jpg"
               alt="Headphones"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Project Prime</h3>
             <p class="art-desc">Marketing</p>
+          </div>
           </li>
-          <li class="art-back art-row2-item">
+          <li class="art-back">
             <img
               src="assets/images/d2project.jpg"
               alt="Boxes with customized Logos"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Project Boxes</h3>
             <p class="art-desc">Apps</p>
+          </div>
           </li>
-          <li class="art-back art-row2 art-row2-item">
+          <li class="art-back">
             <img
               src="assets/images/d3inspiration.jpg"
               alt="Computer Monitor featuring website"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Inspiration has no Borders</h3>
             <p class="art-desc">Web-site</p>
+          </div>
           </li>
 
-          <li class="art-back art-row3-item">
+          <li class="art-back">
             <img
               src="assets/images/e1limited.jpg"
               alt="Magazine Entry"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Limited Edition</h3>
             <p class="art-desc">Design</p>
+          </div>
           </li>
-          <li class="art-back art-row3-item">
+          <li class="art-back">
             <img
               src="assets/images/e2project.jpg"
               alt="Label Tag"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Project LAB</h3>
             <p class="art-desc">Marketing</p>
+          </div>
           </li>
-          <li class="art-back art-row3-item">
+          <li class="art-back">
             <img
               src="assets/images/e3growing.jpg"
               alt="Laptop with hands typing"
               height="294"
               width="370"
             />
+            <div class="art-text">
             <h3 class="art-name">Growing Business</h3>
             <p class="art-desc">Apps</p>
-          </li>  
+          </div></
+          li>  
         </ul>
-      </section>
     </div>
+    </section>
   </main>        
   <footer class="footersection">
       <div class="container">
