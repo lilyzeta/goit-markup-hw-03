@@ -99,10 +99,12 @@ img {
   padding-bottom: 32px;
   display: block;
 }
+.nav-link-this-page {
+  color: var(--accentbright);
+}
 .nav-link:hover {
   color: var(--accentbright);
 }
-
 .nav-contact {
   color: var(--mainmid);
   font-size: 14px;
@@ -143,7 +145,7 @@ img {
   display: block;
 }
 
-.footertext-item:not(:last-child)) {
+.footertext-item:not(:last-child) {
   margin-bottom: 2px;
 }
 .foot-address {
@@ -352,8 +354,9 @@ img {
 
 .art-text {
   padding: 20px 24px;
-  border: bottom solid 1px;
-  color: var(--bordercolor);
+  border-bottom: 1px solid var(--bordercolor);
+  border-left: 1px solid var(--bordercolor);
+  border-right: 1px solid var(--bordercolor);
 }
 .art-name {
   color: var(--maindark);
