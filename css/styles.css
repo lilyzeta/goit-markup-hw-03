@@ -327,24 +327,15 @@ img {
   color: var(--mainbright);
 }
 
-.art-row1,
-.art-row2,
-.art-row3 {
-  display: flex;
-  margin-bottom: 30px;
+.art-grid{
+  display:flex;
 }
-.art-row1-item:not(:last-child),
-.art-row2-item:not(:last-child),
-.art-row3-item:not(:last-child) {
-  margin-right: 30px;
-}
-.art-row3 {
-  padding-bottom: 94px;
-}
-
 .art-back {
   background-color: var(--mainbright);
   border: 1px solid var(--accentbox);
+  margin:left:30px;
+  margin:right:30px;
+  padding:94px;
 }
 
 .art-name {
