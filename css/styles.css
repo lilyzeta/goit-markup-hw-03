@@ -109,6 +109,9 @@ img {
   color: var(--mainmid);
   font-size: 14px;
   font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .nav-contact:hover {
@@ -135,11 +138,11 @@ img {
   font-weight: 700;
   line-height: 1.174;
   display: block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .foot {
   font-style: normal;
-  padding-bottom: 27px;
+  margin-bottom: 27px;
 }
 .footertext-container {
   display: block;
@@ -150,12 +153,19 @@ img {
 }
 .foot-address {
   color: var(--mainbright);
+  font-weight: 400;
+  line-height: 1.71;
+  font-family: roboto;
 }
 
 .foot-contact {
   color: var(--mainbright);
   opacity: 0.6;
+  line-height: 1.71;
+  font-weight: 400;
+  font-family: roboto;
 }
+
 .foot-phone {
   display: block;
 }
@@ -245,7 +255,7 @@ img {
   letter-spacing: 0.03em;
   display: block;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .whatwedo-container {
@@ -262,7 +272,7 @@ img {
 
 .ourteamback {
   background-color: var(--accentbackground);
-  padding: 94x 0;
+  padding: 94px 0;
 }
 
 .ourteamhead {
@@ -298,7 +308,6 @@ img {
 }
 .ourteam-container {
   display: flex;
-  padding-bottom: 94px;
 }
 .ourteam-items {
   background-color: var(--mainbright);
@@ -346,7 +355,7 @@ img {
 }
 .art-back {
   background-color: var(--mainbright);
-  border: 1px solid var(--accentbox);
+
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
