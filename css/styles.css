@@ -148,9 +148,6 @@ img {
   display: block;
 }
 
-.footertext-item:not(:last-child) {
-  margin-bottom: 2px;
-}
 .foot-address {
   color: var(--mainbright);
   font-weight: 400;
